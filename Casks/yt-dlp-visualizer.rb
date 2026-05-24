@@ -9,7 +9,8 @@ cask "yt-dlp-visualizer" do
 
   app "YT-DLP Visualizer.app"
 
-  # Uygulamanın çalışması için gereken araçları Homebrew otomatik kurar
+
   depends_on formula: "yt-dlp"
   depends_on formula: "ffmpeg"
 end
+
