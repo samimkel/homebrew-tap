@@ -1,15 +1,12 @@
 cask "yt-dlp-visualizer" do
   version "1.0"
-  sha256 "5682f3f279dfef890317376367b632725df3c942262ab059b4cd0a3d24eb2b7a"
+  sha256 "3a7b6403920c3ae2f6e0f123988dda20c89ea68d33bca2d3f06a65b755325616"
 
-  # Linki senin attığın linkle birebir eşitledim
   url "https://github.com/samimkel/YT-DLP-Visualizer/releases/download/App/YT-DLPVisualizer.zip"
   name "YT-DLP Visualizer"
   desc "Minimalist macOS GUI companion for yt-dlp"
   homepage "https://github.com/samimkel/YT-DLP-Visualizer"
 
-  # Uygulama isminin de zip içindekiyle aynı olması lazım
-  # Eğer zip içinde ismi farklıysa burayı o isimle düzeltmelisin
   app "YT-DLP Visualizer.app"
 
   depends_on formula: "yt-dlp"
